@@ -1,7 +1,6 @@
-// import { copyToClipboard } from './content-script';
-
-console.log('WebExtension initialised.');
-
+/**
+ * @param {browser.tabs.Tab} tab
+ */
 browser.pageAction.onClicked.addListener((tab) => {
 	console.clear();
 	console.log('tab information:', tab);
