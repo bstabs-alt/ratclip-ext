@@ -1,0 +1,17 @@
+{
+	"$schema": "https://www.schemastore.org/package",
+	"name": "ratclip",
+	"version": "0.1.0",
+	"description": "ratclip extension",
+	"type": "module",
+	"author": {
+		"name": "bstabs"
+	},
+	"scripts": {
+		"dev": "web-ext run --devtools -s src",
+		"verbose": "web-ext run --verbose -s src",
+		"start": "web-ext run -s src",
+		"build": "web-ext --config=config.mjs build -s src",
+		"lint": "web-ext lint ."
+	}
+}

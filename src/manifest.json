@@ -1,0 +1,26 @@
+{
+	"$schema": "https://json.schemastore.org/webextension",
+	"manifest_version": 3,
+	"name": "ratclip",
+	"version": "1.0",
+	"description": "The ability to copy the website url in Rich Text Format (RTF)",
+	"icons": {
+		"48": "icons/ratclip-48.png"
+	},
+	"permissions": ["tabs", "clipboardWrite", "clipboardRead"],
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "ratclip@example.com"
+		}
+	},
+	"page_action": {
+		"default_icon": "icons/ratclip-48.png",
+		"default_title": "ratclip-action",
+		"show_matches": ["<all_urls>"]
+	},
+	"background": {
+		"persistent": false,
+		"type": "module",
+		"scripts": ["background/background.js"]
+	}
+}
