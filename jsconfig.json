@@ -4,9 +4,6 @@
         "lib": [
             "ES2024",
             "DOM"
-            // "ScriptHost",
-            // "WebWorker",
-            // "Decorators"
         ]
     },
     "typeAcquisition": {
