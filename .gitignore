@@ -5,4 +5,6 @@ temp
 .tmp
 .sass-cache
 .DS_Store
-web-ext-artifacts
+
+web-ext-artifacts/
+web-ext-artifacts/ratclip-1.0.zip
